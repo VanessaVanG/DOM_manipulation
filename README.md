@@ -1,5 +1,7 @@
 # JavaScript and DOM Manipulation
 
+## Using only plain JavaScript:
+
 ### Level 1: Automatic Table and Date Search
 
 * Create a basic HTML web page.
