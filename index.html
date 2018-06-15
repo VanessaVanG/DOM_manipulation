@@ -21,8 +21,20 @@
       <div class="row">
         <div class="col-md-4">
           <div class="form-group">
-            <input type="text" class="form-control" id="datetime" placeholder="d/m/yyyy">
-            <a id="search" class="btn btn-secondary">Search</a>
+            <input type="text" class="form-control" id="Search" placeholder="Search">
+            <!-- <a id="search" class="btn btn-secondary">Search</a> -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Choose A Category
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button" value = "datetime">Date</button>
+                  <button class="dropdown-item" type="button" value = "city">City</button>
+                  <button class="dropdown-item" type="button" value = "state">State</button>
+                  <button class="dropdown-item" type="button" value = "country">Country</button>
+                  <button class="dropdown-item" type="button" value = "shape">Shape</button>
+                </div>
+            </div>            
           </div>
         </div>
       </div>
@@ -36,7 +48,7 @@
                 <th>State</th>
                 <th>Country</th>
                 <th>Shape</th>
-                <th>Duration(mins)</th>
+                <th>Duration</th>
                 <th>Comments</th>
               </tr>
             </thead>
